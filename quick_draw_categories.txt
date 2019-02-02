@@ -1,0 +1,55 @@
+﻿airplane
+ant
+apple
+axe
+banana
+basketball
+bee
+bicycle
+bird
+book
+boomerang
+bowtie
+broom
+butterfly
+candle
+car
+cat
+circle
+clock
+cloud
+coffee cup
+cookie
+crown
+donut
+elephant
+eye
+eyeglasses
+fish
+flamingo
+flashlight
+flower
+giraffe
+guitar
+hamburger
+hammer
+hand
+house
+ice cream
+key
+leaf
+lightning
+lollipop
+moon
+mushroom
+pants
+pizza
+sailboat
+saxophone
+smiley face
+square
+star
+sun
+triangle
+t-shirt
+wine glass
