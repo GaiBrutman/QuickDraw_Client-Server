@@ -22,13 +22,14 @@ banana
 ```
 *The categories do not have to be sorted.
 
-The train, validation and test datasets should be in separated .csv files, looking like this:
+You can get the data in google's [quickdraw dataset](https://github.com/googlecreativelab/quickdraw-dataset).
+The data should be convered to train, validation and test .csv files, looking like this:
 
 | Label    | px_0     | px_1     |...       |px_782    |px_783    |
 | -------- |:--------:|:--------:|:--------:|:--------:| --------:|
 | 3        | 0        | 124      | ...      | 23       | 255      |
 | 9        | 43       | 205      | ...      | 238      | 255      |
-| 4        | 123      | 141      | ...      | 66       | 255      |
+| 4        | 123      | 141      | ...      | 66       | 254      |
 
 #### Pretrained Model
 A Pretrained model is included in 'models/quickdraw_model55.pth', a matching categories file can be found in 'quick_draw_categories.txt'
