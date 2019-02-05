@@ -51,19 +51,19 @@ python train.py -cp <CATEGORIES_FILE> -tr <TRAIN_DARA_FILE> -vl <VAL_DARA_FILE> 
 
 Evaluate the saved model with a test dataset.
 ```
-evaluate.py -cp <CATEGORIES_PATH> -ts <TEST_DARA_FILE> -sm <MODEL_FILE_PATH>
+python evaluate.py -cp <CATEGORIES_PATH> -ts <TEST_DARA_FILE> -sm <MODEL_FILE_PATH>
 ```
 
 Evaluate and show the performance of the model on every class.
 ```
-evaluate.py -cp <CATEGORIES_PATH> -ts <TEST_DARA_FILE> -sm <MODEL_FILE_PATH> -ec
+python evaluate.py -cp <CATEGORIES_PATH> -ts <TEST_DARA_FILE> -sm <MODEL_FILE_PATH> -ec
 ```
 
 #### Server:
 Run this command to start the server.
 
 ```
-server.py -cp <CATEGORIES_PATH> -sm <MODEL_FILE_PATH>
+python server.py -cp <CATEGORIES_PATH> -sm <MODEL_FILE_PATH>
 ```
 
 #### Client:
