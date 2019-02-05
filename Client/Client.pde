@@ -48,14 +48,14 @@ int penSize = 20;
 
 PVector scaleV;
 
-void setup() { 
+void setup() {
   fullScreen();
     
   scaleV = new PVector(width/1920., height/1200.);
   
   things = new ArrayList();
   
-  drawRectStart = new PVector((previewSize+previewPad*2)*scaleV.x+50, 155*scaleV.y);
+  drawRectStart = new PVector((previewSize+previewPad*2)*scaleV.x+60, 200*scaleV.y);
   drawRectEnd = new PVector(width-((previewSize+previewPad*2)*scaleV.x)-50, height-20*scaleV.y);
   
   mouse1 = new PVector(mouseX, mouseY);

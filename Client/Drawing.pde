@@ -2,6 +2,16 @@ void startDraw() {
   connected = true;
   eraseBoard(true);
 }
+
+void printKeys() {
+  textAlign(LEFT, TOP);
+  textSize(30*scaleV.y);
+  
+  fill(WHITE_SMOKE);
+  
+  text("Keys:\n\n[X]: Erase board\n[ESC]: Exit", 10, height/6);
+}
+
 void drawPenSize() {
   noStroke();
   fill(SUMMER_SKY);
@@ -13,14 +23,15 @@ void drawPenSize() {
 
 void drawAndPreview() {
   textAlign(LEFT, TOP);
-  textSize(45*scaleV.y);
+  textSize(65*scaleV.y);
   
   fill(WHITE_SMOKE);
   
   text("BRUTMAN QUICK DRAW", drawRectStart.x, 10);
-  textSize(25*scaleV.y);
+  printKeys();
+  textSize(35*scaleV.y);
   
-  text("Draw something, for example:\n" + example, drawRectStart.x, 10 + 60*scaleV.y);
+  text("Draw something, for example:\n" + example, drawRectStart.x, 10 + 80*scaleV.y);
   
   drawPenSize();
   
