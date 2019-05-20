@@ -12,7 +12,6 @@ Scanner sc;
 
 boolean connected = false;    
 boolean empty = true;
-//boolean gotIt = false;
 
 int port = 1235;
 String temp = "";
